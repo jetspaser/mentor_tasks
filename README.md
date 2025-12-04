@@ -7,36 +7,32 @@
 
 
 
-🛡️ Неизменяемые типы (Immutable)
-int - целые числа
+Неизменяемые типы (Immutable)
 
-float - числа с плавающей точкой
+int
 
-complex - комплексные числа
+float
 
-str - строки
+bool
 
-bool - логические значения
+str
 
-tuple - кортежи
+tuple
 
-frozenset - замороженные множества
+frozenset
 
-bytes - байтовые строки
-
-None - специальный тип для отсутствия значения
+bytes
 
 
+Изменяемые (mutable):
 
-🔧 Изменяемые типы (Mutable)
+list
 
-list - списки
+dict
 
-dict - словари
+set
 
-set - множества
-
-bytearray - изменяемые байтовые строки
+bytearray
 
 
 
