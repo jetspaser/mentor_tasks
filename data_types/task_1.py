@@ -22,8 +22,8 @@ true_false: bool = True
 print(type(true_false))
 assert isinstance(true_false, bool)
 
-# tuple (immutable) - "Кортеж — это неизменяемая (immutable) упорядоченная коллекция элементов в Python. Как список, но нельзя изменить после создания."
-the_tuple: tuple = (42,)
+# tuple (immutable) *кортеж* - это неизменяемая (immutable) упорядоченная коллекция элементов в Python. Как список, но нельзя изменить после создания.
+the_tuple: tuple[int] = (42,)
 print(type(the_tuple))
 assert isinstance(the_tuple, tuple)
 
@@ -43,19 +43,19 @@ assert isinstance(byte, bytes)
 # list (mutable) - это изменяемый (mutable) тип данных в Python, представляющий упорядоченную коллекцию элементов с возможностью изменения
 number: list = [1, 2, 3]
 print(type(number))
-assert isinstance(byte, bytes)
+assert isinstance(number, list)
 
 # dict (mutable) - это изменяемый (mutable) тип данных в Python, представляющий неупорядоченную коллекцию пар ключ-значение (ассоциативный массив)
 user: dict[str, int] = {"name": "Илья", "age": 26}
 print(type(user))
-assert isinstance(byte, bytes)
+assert isinstance(user, dict)
 
 # set (mutable) - это изменяемый (mutable) тип данных в Python, представляющий неупорядоченную коллекцию уникальных элементов.
 collection: set[int] = {1, 2, 3, 3, 2}
 print(type(collection))
 assert isinstance(collection, set)
 
-# bytearray (mutable)  - это изменяемый (mutable) тип данных в Python, представляющий изменяемую последовательность байтов (аналог bytes, но можно изменять)
+# bytearray (mutable) - это изменяемый (mutable) тип данных в Python, представляющий изменяемую последовательность байтов (аналог bytes, но можно изменять)
 byte_array: bytearray = bytearray(b"text")
 print(type(bytearray))
 assert isinstance(byte_array, bytearray)
