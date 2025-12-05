@@ -54,9 +54,9 @@ pipenv install --dev
 # 3. Установить pylint (если еще не установлен)
 pip install pylint 
 
-# 4. Проверить код с помощью pylint
+# 4. Проверить код с помощью pylint (всю папку проекта)
 pylint data_types 
 
-# 5. Проверить всю папку проекта
+# 5. Проверить определенный файл
 pylint data_types/mentor_tasks_1/
 
