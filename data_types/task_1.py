@@ -45,7 +45,7 @@ number: list[int] = [1, 2, 3]
 print(type(number))
 assert isinstance(number, list)
 
-# dict (mutable) - изменяемая коллекция пар ключ-значение
+# dict (mutable) - изменяемая, но упорядоченная коллекция пар ключ-значение
 user: dict[str, int] = {"name": "Илья", "age": 26}
 print(type(user))
 assert isinstance(user, dict)
