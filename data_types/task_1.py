@@ -59,3 +59,8 @@ assert isinstance(collection, set)
 byte_array: bytearray = bytearray(b"text")
 print(type(bytearray))
 assert isinstance(byte_array, bytearray)
+
+# range (immutable) - неизменяемый тип данных для представления последовательности чисел
+numbers_range: range = range(10)
+print(type(numbers_range))
+assert isinstance(numbers_range, range)
