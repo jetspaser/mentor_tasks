@@ -51,7 +51,7 @@ print(type(number))
 assert isinstance(number, list)
 
 # dict (mutable) - изменяемая, но упорядоченная коллекция пар ключ-значение
-user: dict[str, int] = {"name": "Илья", "age": 26}
+user: dict[str, str] = {"name": "Илья", "age": "двадцать шесть"}
 print(type(user))
 assert isinstance(user, dict)
 
