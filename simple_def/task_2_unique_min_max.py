@@ -5,7 +5,8 @@
 
 def print_unique_min_max_set(values: list[int]) -> None:
     """
-    values - произвольный список
+    :param values: произвольный список чисел
+    :return: None
     """
 
     unique_values: set[int] = {value for value in values if values.count(value) == 1}
