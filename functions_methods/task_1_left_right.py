@@ -26,7 +26,7 @@ def task_1(
     :return: обработанная строка
     """
 
-    clean = string_for_processing.strip()
+    clean = string_for_processing.strip("\t") # удаляется ТОЛЬКО табуляция
     left = min(left_r, default_max_r)
     right = min(right_r, default_max_r)
 
